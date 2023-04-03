@@ -1,0 +1,122 @@
+ /* css reset */
+ body{
+    color:white;
+    margin: 0px;
+    padding: 0px;
+    background: url('gym-man.jpg');
+    font-family: 'Baloo Bhai 2', cursive;
+    /* height: 5000px; */
+}
+
+/* logo designing */
+.left{
+    position: absolute;
+    top: 20px;
+    left: 34px;
+    display: inline-block;
+    /* border: 2px solid red; */
+}
+#logo{
+    width:70px;
+    height: 40px;
+    filter: invert(100%);
+    /* height: 45px; */
+}
+.left div{
+    text-align: center;
+    font-family: 'Baloo Bhai 2', cursive;
+    line-height: 0px;
+    font-size: 21px;
+    text-shadow: 3px 3px black ;
+}
+
+/* navigation bar desinging */
+.mid{
+    display:block;
+    width: 45%;
+    margin: 20px auto;
+    /* border: 2px solid green; */
+
+}
+.navbar{
+    display: inline-block;
+}
+.navbar li{
+    display: inline-block;
+    font-size: 13px;
+}
+.navbar li a{
+    color: white;
+    text-decoration: none;
+    padding: 34px 20px;
+    font-size: 18px;
+}
+.navbar li a:hover, .navbar li a.active{
+    text-decoration: underline;
+    color: grey;
+}
+
+/* right box desinging */
+.right{
+
+    display: inline-block;
+    position: absolute;
+    top: 20px;
+    right: 34px;
+    /* border: 2px solid yellow; */
+}
+.btn{
+    margin: 0px 9px;
+    color: white;
+    background-color: black;
+    padding: 6px 8px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+.btn:hover{
+    background-color:rgb(143, 141, 141);
+    color: black;
+    /* text-decoration: underline; */
+    cursor: pointer;
+}
+
+/* form desinging */
+
+.container{
+    border: 2px solid white;
+    margin:65px 33px ;
+    padding:35px ;
+    border-radius: 28px;
+    width: 33%;
+}
+
+.form-group input{
+    font-family: 'Baloo Bhai 2', cursive;
+    margin:10px auto ;
+    padding:1px ;
+    border-radius: 8px;
+    text-align: center;
+    display: block;
+    font-size:18px ;
+    width:450px ;
+    border: 2px solid black;
+}
+
+.container h1{
+   text-align: center;
+   font: bold;
+   color: black;
+}
+
+.container button{
+   display: block;
+   width: 70%;
+   margin: 20px auto;
+}
+
+.next-img-div{
+    position: absolute;
+    top: 1080px;
+}
